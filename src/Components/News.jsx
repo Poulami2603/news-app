@@ -48,7 +48,7 @@ const News = (props) => {
     return (
         <>
             <div className="container my-3">
-                <h2 className="text-center">NewsMonkey - {CapitalF(props.catagory)} Headlines</h2>
+                <h2 className="text-center" style={{marginTop: '90px'}}>NewsMonkey - {CapitalF(props.catagory)} Headlines</h2>
                 {
                     loading === true ? <Spinner /> :
                         <>
